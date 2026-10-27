@@ -1,0 +1,114 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #293b3d;
+  background: #f5faf9;
+}
+
+.clinic-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 4%;
+  background: linear-gradient(120deg, #e4f5f1, #ffffff);
+  border-bottom: 3px solid #08796c;
+}
+
+.clinic-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.clinic-details h1 {
+  margin: 0;
+  color: #08796c;
+  font-size: 30px;
+  line-height: 1.25;
+}
+
+.clinic-details h2 {
+  font-size: 17px;
+  margin: 6px 0;
+}
+
+.clinic-details p {
+  margin: 5px 0;
+}
+
+a {
+  color: #08796c;
+}
+
+.phone a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar {
+  background: #086b61;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 5px 12px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 25px auto;
+  padding: 0 18px;
+}
+
+footer {
+  background: #123d39;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .clinic-header {
+    gap: 10px;
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  .clinic-photo {
+    width: 95px;
+    height: 115px;
+  }
+
+  .clinic-details h1 {
+    font-size: 20px;
+  }
+
+  .clinic-details h2 {
+    font-size: 13px;
+  }
+
+  .clinic-details p {
+    font-size: 12px;
+  }
+
+  .navbar a {
+    font-size: 12px;
+    padding: 5px;
+  }
+}

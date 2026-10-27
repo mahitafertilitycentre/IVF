@@ -1,0 +1,22 @@
+IUI/
+│
+├── _config.yml
+│
+├── _layouts/
+│   └── default.html
+│
+├── _includes/
+│   └── header.html
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── images/
+│       └── Mahita.jpeg
+│
+├── index.html
+├── ivf-treatment.html
+├── iui-treatment.html
+├── fertility-treatment.html
+├── sitemap.xml
+└── robots.txt
